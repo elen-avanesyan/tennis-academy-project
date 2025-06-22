@@ -512,10 +512,10 @@ hr {
     margin-left: 50px;
 }
 
-@media (max-width: 430px) {
+@media (min-width:320px) and (max-width: 430px) {
 
   .header-menu {
-    padding-left: 30px;
+    padding-left: 20px;
     padding-right: 10px;
   }
 
@@ -526,7 +526,7 @@ hr {
   }
 
   .header-menu-item {
-    margin-left: -40px;
+    margin-left: -45px;
   }
 
   .logo-name {
